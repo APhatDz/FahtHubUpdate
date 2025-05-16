@@ -323,49 +323,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Imformation"
     }),
     Main = v15:AddTab({
-        Title = "Cày"
+        Title = "Farm"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện"
+        Title = "Event"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm"
+        Title = "Item/Quest"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt"
+        Title = "Setting"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ"
+        Title = "Sever"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số"
+        Title = "Stat"
     }),
     Player = v15:AddTab({
-        Title = "Người Chơi"
+        Title = "Player"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển"
+        Title = "Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Fake"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái"
+        Title = "Fruit"
     }),
     Raid = v15:AddTab({
         Title = "Tập Kích"
     }),
     Race = v15:AddTab({
-        Title = "Tộc"
+        Title = "V4"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng"
+        Title = "Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Other"
     })
 };
 local v17 = v14.Options;
@@ -6512,7 +6512,7 @@ v98:OnChanged(function(v284)
 end);
 v17.ToggleF:SetValue(true);
 local v99 = v16.Status:AddParagraph({
-    Title = "Thông Tin",
+    Title = "Imformation",
     Content = "━━━━━━━━━━━━━━━━━━━━━\n" .. "Tên : " .. game.Players.LocalPlayer.DisplayName .. " (@" .. game.Players.LocalPlayer.Name .. ")\n" .. "Cấp : " .. game:GetService("Players").LocalPlayer.Data.Level.Value .. "\n" .. "Tiền : " .. game:GetService("Players").LocalPlayer.Data.Beli.Value .. "\n" .. "Điểm F : " .. game:GetService("Players").LocalPlayer.Data.Fragments.Value .. "\n" .. "Tiền Truy Nã : " .. game:GetService("Players").LocalPlayer.leaderstats["Bounty/Honor"].Value .. "\n" .. "Máu: " .. game.Players.LocalPlayer.Character.Humanoid.Health .. "/" .. game.Players.LocalPlayer.Character.Humanoid.MaxHealth .. "\n" .. "Năng Lượng : " .. game.Players.LocalPlayer.Character.Energy.Value .. "/" .. game.Players.LocalPlayer.Character.Energy.MaxValue .. "\n" .. "Tộc : " .. game:GetService("Players").LocalPlayer.Data.Race.Value .. "\n" .. "Trái : " .. game:GetService("Players").LocalPlayer.Data.DevilFruit.Value .. "\n" .. "━━━━━━━━━━━━━━━━━━━━━"
 });
 local v100 = v16.Status:AddParagraph({
