@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/APhatDz/FahtHubUpdate/refs/heads/main/UpdateSkibili"))();
 local v15 = v14:CreateWindow({
-    Title = "Min Gaming",
+    Title = "PhatRoblox",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
@@ -2633,7 +2633,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=13717478897";
+v23.Image = "http://www.roblox.com/asset/?id=102873246728993";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2677,10 +2677,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
+    Title = "Youtube",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/25ms");
+        setclipboard("https://www.youtube.com/@phatrbscriptupdatenew");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -3874,7 +3874,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
+                    Title = "PhatRoblox",
                     Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
@@ -3968,7 +3968,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
+                    Title = "PhatRoblox",
                     Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
@@ -4062,7 +4062,7 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
+                    Title = "PhatRoblox",
                     Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
