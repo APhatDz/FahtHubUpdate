@@ -313,10 +313,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/APhatDz/FahtHubUpdate/refs/heads/main/UpdateSkibili"))();
 local v15 = v14:CreateWindow({
-    Title = "PhatRoblox",
-    SubTitle = "",
+    Title = "PhatRoblox v2",
+    SubTitle = "Premium",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "Darker",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
