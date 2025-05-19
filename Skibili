@@ -7253,7 +7253,7 @@ _G.PermanentFruit = "Dragon-Dragon";
 _G.AutoBuyFruitSniper = false;
 _G.AutoSwitchPermanentFruit = false;
 local v123 = v16.Fruit:AddDropdown("DropdownFruit", {
-    Title = "Perm",
+    Title = "Perm Fruit",
     Description = "",
     Values = Table_DevilFruitSniper,
     Multi = false,
@@ -7267,7 +7267,17 @@ local v111 = v16.Fruit:AddToggle("ToggleFruit", {
     Title = "Get Free",
     Description = "",
     Default = false
-
+});
+v111:OnChanged(function(v338)
+    if v338 then
+        _G.AutoBuyFruitSniper = true;
+        pcall(function()
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("GetFruits");
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("PurchaseRawFruit", _G.SelectFruit, false);
+        end);
+        _G.AutoBuyFruitSniper = false;
+    end
+end);
 v17.ToggleFruit:SetValue(false);
 local v124 = v16.Fruit:AddDropdown("DropdownPermanentFruit", {
     Title = "Permanent Fruit",
