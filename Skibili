@@ -9079,6 +9079,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "Faht Hub v3",
-    Content = "Tải Xong",
+    Content = "Done",
     Duration = 10
 });
