@@ -350,7 +350,7 @@ local v16 = {
         Title = "Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Fake"
     }),
     Fruit = v15:AddTab({
         Title = "Fruit"
