@@ -323,49 +323,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Imformation"
     }),
     Main = v15:AddTab({
-        Title = "Cày"
+        Title = "Farm"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện"
+        Title = "Event"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm"
+        Title = "Item/Quest"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt"
+        Title = "Setting"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ"
+        Title = "Sever"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số"
+        Title = "Stat"
     }),
     Player = v15:AddTab({
-        Title = "Người Chơi"
+        Title = "Player"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển"
+        Title = "Teleport"
     }),
     Visual = v15:AddTab({
         Title = "Giả"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái"
+        Title = "Fruit"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích"
+        Title = "Raid"
     }),
     Race = v15:AddTab({
-        Title = "Tộc"
+        Title = "V4"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng"
+        Title = "Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Other"
     })
 };
 local v17 = v14.Options;
@@ -2680,7 +2680,7 @@ v16.Home:AddButton({
     Title = "Youtube",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://www.youtube.com/@phatrbscriptupdatenew");
+        setclipboard("https://www.youtube.com/@korblox.vnn.roblox");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
