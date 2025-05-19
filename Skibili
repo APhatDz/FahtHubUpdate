@@ -7248,6 +7248,26 @@ for v335, v336 in next, v122 do
         table.insert(ShopDevilSell, v336.Name);
     end
 end
+_G.SelectFruit = "Dragon-Dragon";
+_G.PermanentFruit = "Dragon-Dragon";
+_G.AutoBuyFruitSniper = false;
+_G.AutoSwitchPermanentFruit = false;
+local v123 = v16.Fruit:AddDropdown("DropdownFruit", {
+    Title = "Perm",
+    Description = "",
+    Values = Table_DevilFruitSniper,
+    Multi = false,
+    Default = 1
+});
+v123:SetValue(_G.SelectFruit);
+v123:OnChanged(function(v337)
+    _G.SelectFruit = v337;
+end);
+local v111 = v16.Fruit:AddToggle("ToggleFruit", {
+    Title = "Get Free",
+    Description = "",
+    Default = false
+
 v17.ToggleFruit:SetValue(false);
 local v124 = v16.Fruit:AddDropdown("DropdownPermanentFruit", {
     Title = "Permanent Fruit",
