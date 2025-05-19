@@ -314,7 +314,7 @@ v5:Destroy();
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/APhatDz/FahtHubUpdate/refs/heads/main/UpdateSkibili"))();
 local v15 = v14:CreateWindow({
     Title = "KorbloxVN v2",
-    SubTitle = "Freemium",
+    SubTitle = "BLox Fruit",
     TabWidth = 160,
     Theme = "Darker",
     Acrylic = false,
