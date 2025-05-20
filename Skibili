@@ -313,10 +313,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/APhatDz/FahtHubUpdate/refs/heads/main/UpdateSkibili"))();
 local v15 = v14:CreateWindow({
-    Title = "KorbloxVN Hub",
-    SubTitle = "- Blox Fruit",
+    Title = "KorbloxVN v2",
+    SubTitle = "- BLox Fruit",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "Darker",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -353,7 +353,7 @@ local v16 = {
         Title = "Fake"
     }),
     Fruit = v15:AddTab({
-        Title = "Fruit"
+        Title = "Fruit/Trade Scam"
     }),
     Raid = v15:AddTab({
         Title = "Raid"
@@ -2680,7 +2680,7 @@ v16.Home:AddButton({
     Title = "Youtube",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://www.youtube.com/@korblox.vnn.roblox");
+        setclipboard("https://www.youtube.com/@phatrbscriptupdatenew");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -6512,7 +6512,7 @@ v98:OnChanged(function(v284)
 end);
 v17.ToggleF:SetValue(true);
 local v99 = v16.Status:AddParagraph({
-    Title = "Thông Tin",
+    Title = "Imformation",
     Content = "━━━━━━━━━━━━━━━━━━━━━\n" .. "Tên : " .. game.Players.LocalPlayer.DisplayName .. " (@" .. game.Players.LocalPlayer.Name .. ")\n" .. "Cấp : " .. game:GetService("Players").LocalPlayer.Data.Level.Value .. "\n" .. "Tiền : " .. game:GetService("Players").LocalPlayer.Data.Beli.Value .. "\n" .. "Điểm F : " .. game:GetService("Players").LocalPlayer.Data.Fragments.Value .. "\n" .. "Tiền Truy Nã : " .. game:GetService("Players").LocalPlayer.leaderstats["Bounty/Honor"].Value .. "\n" .. "Máu: " .. game.Players.LocalPlayer.Character.Humanoid.Health .. "/" .. game.Players.LocalPlayer.Character.Humanoid.MaxHealth .. "\n" .. "Năng Lượng : " .. game.Players.LocalPlayer.Character.Energy.Value .. "/" .. game.Players.LocalPlayer.Character.Energy.MaxValue .. "\n" .. "Tộc : " .. game:GetService("Players").LocalPlayer.Data.Race.Value .. "\n" .. "Trái : " .. game:GetService("Players").LocalPlayer.Data.DevilFruit.Value .. "\n" .. "━━━━━━━━━━━━━━━━━━━━━"
 });
 local v100 = v16.Status:AddParagraph({
@@ -7153,7 +7153,7 @@ v16.Teleport:AddButton({
     end
 });
 v16.Visual:AddButton({
-    Title = "Giả",
+    Title = "Fake",
     Description = "",
     Callback = function()
         local v318 = game:GetService("Players").LocalPlayer;
@@ -7253,7 +7253,7 @@ _G.PermanentFruit = "Dragon-Dragon";
 _G.AutoBuyFruitSniper = false;
 _G.AutoSwitchPermanentFruit = false;
 local v123 = v16.Fruit:AddDropdown("DropdownFruit", {
-    Title = "Perm",
+    Title = "Perm Fruit",
     Description = "",
     Values = Table_DevilFruitSniper,
     Multi = false,
@@ -7450,7 +7450,7 @@ spawn(function()
     end);
 end);
 local v128 = v16.Fruit:AddToggle("ToggleCollectTP", {
-    Title = "Tween To Fruit",
+    Title = "Freeze Trade",
     Description = "",
     Default = false
 });
@@ -7470,7 +7470,7 @@ spawn(function()
     end
 end);
 local v129 = v16.Fruit:AddToggle("ToggleCollect", {
-    Title = "Teleport To Fruit",
+    Title = "Auto Accept",
     Description = "",
     Default = false
 });
@@ -7752,7 +7752,7 @@ spawn(function()
 end);
 if Sea2 then
     v16.Raid:AddButton({
-        Title = "Bay Đến Chỗ Tập Kích",
+        Title = "Fly to the raid",
         Description = "",
         Callback = function()
             Tween2(CFrame.new(- 6438.73535, 250.645355, - 4501.50684));
@@ -7760,7 +7760,7 @@ if Sea2 then
     });
 elseif Sea3 then
     v16.Raid:AddButton({
-        Title = "Bay Đến Chỗ Tập Kích",
+        Title = "Fly to the raid",
         Description = "",
         Callback = function()
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(- 5075.50927734375, 314.5155029296875, - 3150.0224609375));
@@ -7768,7 +7768,7 @@ elseif Sea3 then
         end
     });
 end
-local v56 = v16.Raid:AddSection("Tập Kích Law");
+local v56 = v16.Raid:AddSection("Raid Law");
 local v143 = v16.Raid:AddToggle("ToggleLaw", {
     Title = "Mua Chip Và Đấm Law",
     Description = "",
@@ -9108,7 +9108,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "Korblox Hub V2",
-    Content = "Done!",
+    Title = "Faht Hub v3",
+    Content = "Done",
     Duration = 10
 });
